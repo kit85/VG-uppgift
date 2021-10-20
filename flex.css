@@ -1,0 +1,17 @@
+/*display. flytta upp texten */
+.d-flex {display: flex; }
+.d-none {display: none; }  /*dölja knapp valet home,store osv*/
+    
+/*flex. gör att boxen  bli breddare */
+
+.flex-row { flex-direction: row;} /*skriver ut i rad*/
+.flex-column { flex-direction: column;} /*colum*/
+.flex-row-reverse { flex-direction: row-reverse;} /*spegelvänt*/
+.flex-grow { flex-grow: 1;}  
+.flex-wrap { flex-wrap: wrap;} /*skjuta in till nästa rad*/
+
+/*align and justify. skapa mellanrummet mellan bild eller texter */
+.justify-content-between {justify-content:space-between ; } /*mellanrum*/
+.justify-content-center {justify-content: center;}  /*centreras*/
+.align-item-center {align-items: center;}
+.justify-content-around {justify-content: space-around;}
