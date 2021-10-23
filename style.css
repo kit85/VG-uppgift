@@ -13,6 +13,7 @@
  --color-transparent:transparent;
  --color-border:#dee2e6; /*kantlinje*/
  --color-dark-transparent: rgba(0,0,0,0.2); /*genomskinligt färg */
+ --color-blue2: #0d6efd;
 
    /*text size*/
   --display-xxs: 1rem;
@@ -27,6 +28,7 @@
   --line-height-sm: 1rem;
   --line-height-md: 1.6rem;
   --line-height-lg: 3rem;
+  --line-heigt-xl: 4rem
 
   /*distance*/
   --distance-0: 0rem;
@@ -112,6 +114,8 @@ body{
 .bg-cozy, .btn-cozy {background-color: var(--color-cozy);}
 .bg-transparent {background-color: var(--color-transparent);} 
 .bg-dark-transparent {background-color: var(--color-dark-transparent);}
+.bg-border-color{background-color: var(--color-border);}
+
 
 /*text colors*/
 .text-primary{color:var(--color-primary); }
@@ -124,6 +128,8 @@ body{
 .text-dark {color:var(--color-dark);}
 .text-white {color:var(--color-white);}
 .text-cozy {color: var(--color-cozy);}
+.text-border{color:var(--color-border)}
+.text-blue{color: var(--color-blue2);}
 
 /*border color*/
 .border-color-primary {border-color:var(--color-primary)!important;}
@@ -137,12 +143,52 @@ body{
 .border-color-white {border-color: var(--color-white)!important;}
 .border-color-cozy {border-color:var(--color-cozy)!important;}
 
-.border-dark{
-    border:2rem;
-    border-color: var(--color-dark);
+
+.border-white{
+    border: 0.1rem solid var(--color-border);
 } 
 .border-light{
     border: 0.2rem solid var(--color-light);
 
 }
+.text-transform{text-transform: uppercase;}
+.font-vikt{font-weight: bold;}
+
+.border-border{border:0.1rem solid var(--color-border);}
+.border-bottom {border-bottom: 0.1rem solid var(--color-border);}
+.border- {border: o.1rem solid var(--color-border);}
+.border-right{border-right: 0.1rem solid var(--color-border) ;}
+.border-left{border-left: 0.1rem solid var(--color-border) ;}
+
+.blue{color: blue;}
+
+.image {width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+}
+.mtop{margin-top: 10%;}
+.pr-8{padding-right: var(--distance-8);}
+.pl-8{padding-left: var(--distance-8);}
+
+#pekare:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+    
+    
+}
+#pekare{
+    transition: all ease-in-out 0.5s;
+}
+li > a{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+
+
+
+
+
 
