@@ -11,6 +11,8 @@
 .position-relative {position: relative !important ; }
 .position-absolute {position: absolute !important ; }
 .overflow-hidden {overflow: hidden}
+.d-none{display: none;}
+
 /*x och y led*/
 .centerXY {
     top:50%;
@@ -131,8 +133,10 @@ a{ text-decoration: none;}
 
 /*circle*/
 .circle {border-radius: 100% } /*gör en cirkel*/
-.circle-lg {width: 15rem ; height: 15rem;} /*storlek på cirkel*/
-
+/*färg samt placering av cirkel*/
+.circle-lg {background-color: green; top: 1px ; right: 5px; width: 1.5rem ; height: 1.5rem;} /*storlek på cirkel*/
+/*placering*/
+.fyrkant {background-color: green; top: 0px;}
 
 
 /*shadow*/
